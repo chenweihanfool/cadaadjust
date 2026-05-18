@@ -1,0 +1,19 @@
+# Cadastral data files (not for version control)
+調整地籍線/
+adjust/
+*.BNP
+*.COA
+*.PAR
+*.CTL
+*.DIS
+*.MAP
+*.RCO
+*.UPN
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code internal
+.claude/
