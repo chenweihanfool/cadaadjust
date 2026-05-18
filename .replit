@@ -28,3 +28,7 @@ args = "python adjust_cadastral.py"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[deployment]
+deploymentTarget = "vm"
+run = ["python", "adjust_cadastral.py"]
