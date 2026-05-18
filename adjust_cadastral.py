@@ -20,7 +20,7 @@ TARGETS = [
     {'district': '341', 'main': 168, 'sub': 3,  'folder': 'KC03410011', 'prefix': 'KC0341'},
 ]
 
-BASE_DIR = r'D:\ClaudeCode\調整地籍線'
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 OUTPUT_SUFFIX = '_adjusted'
 
 # Aim to land at 90% of tolerance from the registered area (not zero difference).

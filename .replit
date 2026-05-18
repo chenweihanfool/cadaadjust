@@ -30,5 +30,5 @@ args = "python adjust_cadastral.py"
 outputType = "console"
 
 [deployment]
-deploymentTarget = "vm"
+deploymentTarget = "scheduled"
 run = ["python", "adjust_cadastral.py"]
